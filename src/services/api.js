@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 // API base URL - configured in .env file
-const API_URL = 'https://5916-15-206-74-169.ngrok-free.app/api/';
+const API_URL = 'http://15.206.74.169:8000/api/';
 
 // Create axios instance
 const api = axios.create({
